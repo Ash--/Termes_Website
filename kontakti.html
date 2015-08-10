@@ -2,33 +2,31 @@
 
 <html lang ="lv">
 	<head>
-		<title>Termes</title>
+		<title>SIA Termes</title>
 		
+		<!-- Stylesheets -->
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="kontakti.css">
+		<!-- Character set to use other languages -->
 		<meta charset= "UTF-8">
 	</head>
 
 	<body>
-
 		<header class="navbar-default" role="banner">
-
-			
-				<nav>
-			<!-- 	  <div class="container-fluid"> -->
-				    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
+			<nav>
+			 <!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				     	<span class="sr-only">Toggle navigation</span>
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-				    </div>
+				</div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <!-- This starts the full screen navigation bar -->
@@ -36,9 +34,9 @@
 			      <ul class="nav navbar-nav" id="change_text_colour">
 			      	<li id = "logo"><img src="termes_logo.png"></li>
 			      	<li class="dropdown"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
-			        
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Par kompāniju <span class="caret"></span></a>
+
 			          <ul class="dropdown-menu">
 			            <li><a href="#">kā</a></li>
 			            <li><a href="#">Action</a></li>
@@ -49,8 +47,10 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			        </li>
+
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Atbilstība<span class="caret"></span></a>
+			          
 			          <ul class="dropdown-menu">
 			            <li><a href="#">āāāā</a></li>
 			            <li><a href="#">Another action</a></li>
@@ -61,8 +61,10 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			      </li>
+
 			      <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Verifikācija<span class="caret"></span></a>
+			          
 			          <ul class="dropdown-menu">
 			            <li><a href="#">Action</a></li>
 			            <li><a href="#">Another action</a></li>
@@ -73,6 +75,7 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			      </li>
+
 			      <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kalibrēšana <span class="caret"></span></a>
 			          <ul class="dropdown-menu">
@@ -85,6 +88,7 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			      </li>
+
 			      <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Testēšana <span class="caret"></span></a>
 			          <ul class="dropdown-menu">
@@ -97,6 +101,7 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			      </li>
+
 			      <li class="active"><a href="kontakti.html">Kontakti</a></li>
 			      <li  id="circle">
 				 		<ul>
@@ -107,19 +112,20 @@
 				 	</li>	
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
-
-			<!--   </div> --><!-- /.container-fluid -->
 			</nav>
 		</div>
 		</header>
 
+		<!-- This adds a Google map to the site -->
 		<div class="container">
 			<div class="map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4016.489163649318!2d24.23321263987659!3d56.968009118736575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecc2b495ac045%3A0x17d4bb266746040a!2sTermes+%2C+SIA!5e0!3m2!1sen!2slv!4v1438181993091" width="1000" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>	
+
+		<!-- Add "Kontakti" area to put information about contacts -->
 		<div class="container">	
-			<div class="kontakti">
+			<div class="contacts">
 				<h2>Kontakti</h2>
 				<p>Tālrunis   + 371 67531630 </p>              
           		<p>Fakss      + 371 67817420 </p>
@@ -131,11 +137,17 @@
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	    <script src="js/bootstrap.min.js"></script>
-			<!-- Latest compiled and minified JavaScript -->
+		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 	</body>
 
+	<footer>
+		<!-- Adds footer information -->
+		<div class="end">
+			<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"> 2015  SIA Termes</span>
+		</div>
+	</footer>
 
 
 </htm>

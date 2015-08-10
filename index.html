@@ -2,25 +2,22 @@
 
 <html lang ="lv">
 	<head>
-		<title>Termes</title>
+		<title>SIA Termes</title>
 		
+		<!-- Stylesheets -->
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
-
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<!-- Character set to use other languages -->
 		<meta charset= "UTF-8">
 	</head>
 
 	<body>
-
 		<header class="navbar-default" role="banner">
-
-			
 				<nav>
-			<!-- 	  <div class="container-fluid"> -->
 				    <!-- Brand and toggle get grouped for better mobile display -->
 				    <div class="navbar-header">
 				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -36,10 +33,10 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav" id="change_text_colour">
 			      	<li id = "logo"><img src="termes_logo.png"></li>
-			      	<li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
-			        
+			      	<li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>			       
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Par kompāniju <span class="caret"></span></a>
+			          
 			          <ul class="dropdown-menu">
 			            <li><a href="#">kā</a></li>
 			            <li><a href="#">Action</a></li>
@@ -50,8 +47,10 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			        </li>
+
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Atbilstība<span class="caret"></span></a>
+			          
 			          <ul class="dropdown-menu">
 			            <li><a href="#">āāāā</a></li>
 			            <li><a href="#">Another action</a></li>
@@ -62,6 +61,7 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			      </li>
+
 			      <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Verifikācija<span class="caret"></span></a>
 			          <ul class="dropdown-menu">
@@ -74,8 +74,10 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			      </li>
+
 			      <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kalibrēšana <span class="caret"></span></a>
+			          
 			          <ul class="dropdown-menu">
 			            <li><a href="#">Action</a></li>
 			            <li><a href="#">Another action</a></li>
@@ -86,8 +88,10 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			      </li>
+
 			      <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Testēšana <span class="caret"></span></a>
+			          
 			          <ul class="dropdown-menu">
 			            <li><a href="#">Action</a></li>
 			            <li><a href="#">Another action</a></li>
@@ -98,6 +102,7 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
 			      </li>
+
 			      <li class="dropdown"><a href="kontakti.html">Kontakti</a></li>
 			      <li  id="circle">
 				 		<ul>
@@ -108,20 +113,18 @@
 				 	</li>	
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
-
-			<!--   </div> --><!-- /.container-fluid -->
 			</nav>
-		</div>
 		</header>
 
-		<div class="container boximage">
+		<!-- Adds an image after navigation bar -->
+		<div class="container">
 			<div class="images">
 				<img align="middle" id="background" src="back.jpg">
 			</div>	
 		</div>
 
 	
-
+		<!-- Adds a section with service iformation -->
 		<div class="container service">
 			<!-- <span class="title">
 				Pakalpojumi
@@ -177,12 +180,14 @@
 				</li>
 			</ul>
 		</div>
-		
-	<div class="container">
+	
+	<!--Adds information section  -->
+	<div class="container information">
 			<div class="boxes">
 				<div class="row">
 					<div class="col1">
 						<div class="mypanel panel1">
+							<!-- Adds "News" section -->
 							<div class="thehead"><a class ="mainbodylink" href="#">Jaunumi</a></div>
 								<div class="thebody"></div>
 						</div>	
@@ -190,107 +195,14 @@
 					<!-- Calendar section -->
 					<div class="col2">
 						<div class="mypanel panel2">
+							<!-- Adds "Calendar" section -->
 							<div class="thehead"><a class ="mainbodylink" href="#">Kalendārs</a></div>
-								<div class="thebody">
-									<!-- <section class="container">
-									    <table class="cal">
-									      <caption>
-									        <span class="prev"><a href="index.html">&larr;</a></span>
-									        <span class="next"><a href="index.html">&rarr;</a></span>
-									        January 2012
-									      </caption>
-									      <thead>
-									        <tr>
-									          <th>Mon</th>
-									          <th>Tue</th>
-									          <th>Wed</th>
-									          <th>Thu</th>
-									          <th>Fri</th>
-									          <th>Sat</th>
-									          <th>Sun</th>
-									        </tr>
-									      </thead>
-									      <tbody>
-									        <tr>
-									          <td class="off"><a href="index.html">26</a></td>
-									          <td class="off"><a href="index.html">27</a></td>
-									          <td class="off"><a href="index.html">28</a></td>
-									          <td class="off"><a href="index.html">29</a></td>
-									          <td class="off"><a href="index.html">30</a></td>
-									          <td class="off"><a href="index.html">31</a></td>
-									          <td><a href="index.html">1</a></td>
-									        </tr>
-									        <tr>
-									          <td><a href="index.html">2</a></td>
-									          <td><a href="index.html">3</a></td>
-									          <td><a href="index.html">4</a></td>
-									          <td><a href="index.html">5</a></td>
-									          <td><a href="index.html">6</a></td>
-									          <td><a href="index.html">7</a></td>
-									          <td><a href="index.html">8</a></td>
-									        </tr>
-									        <tr>
-									          <td><a href="index.html">9</a></td>
-									          <td><a href="index.html">10</a></td>
-									          <td><a href="index.html">11</a></td>
-									          <td><a href="index.html">12</a></td>
-									          <td><a href="index.html">13</a></td>
-									          <td><a href="index.html">14</a></td>
-									          <td><a href="index.html">15</a></td>
-									        </tr>
-									        <tr>
-									          <td><a href="index.html">16</a></td>
-									          <td><a href="index.html">17</a></td>
-									          <td><a href="index.html">18</a></td>
-									          <td><a href="index.html">19</a></td>
-									          <td><a href="index.html">20</a></td>
-									          <td><a href="index.html">21</a></td>
-									          <td><a href="index.html">22</a></td>
-									        </tr>
-									        <tr>
-									          <td><a href="index.html">23</a></td>
-									          <td><a href="index.html">24</a></td>
-									          <td><a href="index.html">25</a></td>
-									          <td><a href="index.html">26</a></td>
-									          <td><a href="index.html">27</a></td>
-									          <td class="active"><a href="index.html">28</a></td>
-									          <td><a href="index.html">29</a></td>
-									        </tr>
-									        <tr>
-									          <td><a href="index.html">30</a></td>
-									          <td><a href="index.html">31</a></td>
-									          <td class="off"><a href="index.html">1</a></td>
-									          <td class="off"><a href="index.html">2</a></td>
-									          <td class="off"><a href="index.html">3</a></td>
-									          <td class="off"><a href="index.html">4</a></td>
-									          <td class="off"><a href="index.html">5</a></td>
-									        </tr>
-									      </tbody>
-									    </table>
-									  </section> -->
-								</div>
-						</div>	
-					</div>
-				<!-- </div>
-				<div class="row">
-					<div class="col3">
-						<div class="mypanel panel3">
-							<div class="thehead"><a class ="mainbodylink" href="#">Par metroloģiju</a></div>
 								<div class="thebody"></div>
 						</div>	
-					</div>	
-					<div class="col4">
-						<div class="mypanel panel4">
-							<div class="thehead"><a class ="mainbodylink" href="#">Jaunumi</a></div>
-								<div class="thebody">
-									<p>Te būs Jaunumu sadaļa</p>
-								</div>
-						</div>	
-					</div> -->
-
+					</div>
+				</div>
 			</div>
-			</div>
-		</div>
+	</div>
 
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -302,6 +214,7 @@
 
 	</body>
 	<footer>
+		<!-- Adds footer information -->
 		<div class="end">
 			<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"> 2015  SIA Termes</span>
 		</div>

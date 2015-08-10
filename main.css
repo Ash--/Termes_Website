@@ -1,26 +1,63 @@
+/*Sets image size according to the container size they are put and keeps the ratio*/
+img  {max-width: 100%; max-height: 100%}
+
+/*Termes logo image positioning*/
+#logo{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 5px;	
+
+}
+
+/*The home button in the navigation bar*/
+.glyphicon{
+	font-size: 15px;
+	margin-bottom: 0px;
+}
+
+/*The styles of the main navigation bar*/
+/*Removes default effects of the navigation bar as a whole*/
 .navbar-default {
 	background-image: none;
 	box-shadow: none;
 }
-.navbar-default .nav.navbar-nav .dropdown {
-	border-left: 1px ridge #E4ECF2;
-	
-}
 
+/*Changes size and styles of the navigation bar as a whole*/
 .navbar-default .nav.navbar-nav{
 	width: 100%;
 	background-color: white;
 	margin: 0px;
 	box-shadow: none;
 	background-image: none;
-	
-
-
 }
+
+/*Adds borders between idividual sections in the navigation bar*/
+.navbar-default .nav.navbar-nav .dropdown {
+	border-left: 1px ridge #E4ECF2;
+	
+}
+
+/*Removes padding around navigation bar as whole*/
 .collapse.navbar-collapse {
 	padding-left: 0px;
 	padding-right: 0px;
+}	
+
+/*Style of the current selected option in the navigation bar*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: white;
+	background: rgba(155, 209, 237, 0.64);
+	font-size: 16px;
+	font-family: arial;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	
 }
+
+
+/*Creates circles for the language navigation and sets the style*/
 #circle{ padding: 0; margin: 10px 0 0 0;}
 #circle li{float: left; margin-left: 10px;}
 #circle ul{margin-left: 15px; list-style-type: none;}
@@ -38,11 +75,14 @@
 	border-radius: 50%;
 	}
 
-#circle .active a, #circle li:hover a, #circle a:focus{
-		background-color: #019fde;
-		text-decoration: none;
-	}
 
+/*Changes the background colour of the circles when hovered over or selected*/
+#circle .active a, #circle li:hover a, #circle a:focus{
+	background-color: #019fde;
+	text-decoration: none;
+}
+
+/*Sets style for the dropdown menus in the navigation bar*/
 .navbar-default .navbar-nav>.dropdown>a {
 	color: #4EA9E6;
 	font-size: 16px;
@@ -54,281 +94,42 @@
 	background-color: white;
 	box-shadow: none;
 	padding-top: 25px;
-	padding-bottom: 25px;
-
-	
+	padding-bottom: 25px;	
 }
 
+/*Sets style for the background of the element in the navigation bar when hovered over*/
 .navbar-default .navbar-nav>.dropdown>a:hover {
-	
 	background: rgba(155, 209, 237, 0.64);
-	margin: 0px;
-	
+	margin: 0px;	
 }
 
+/*Sets style for the background of the element in the navigation bar when focused over*/
 .navbar-default .navbar-nav>.dropdown>a:focus {
-	
 	background: rgb(155, 209, 237);
-
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	color: white;
-	background: rgba(155, 209, 237, 0.64);
-	font-size: 16px;
-	font-family: arial;
-	font-weight: 500;
-	text-transform: uppercase;
-	padding-bottom: 25px;
-	padding-top: 25px;
-	
-}
-.glyphicon{
-	font-size: 15px;
-	margin-bottom: 0px;
 }
 
 
-#logo{
-	margin-left: 10px;
-	margin-right: 10px;
-	padding-top: 5px;
-	
-
+/*Sets the background colour for the dropdown menu*/
+.dropdown-menu{
+	background-color: rgba(155, 209, 237, 0.74);
 }
 
-
-.container-fluid{
-background: white;
-
+/*Sets the background colour for the dropdown menu when hovered over*/
+.dropdown-menu>li:hover>a{
+	background: #1CA6EB;
 }
 
+/*Sets the colour of the menu button when screen size gets small*/
 .navbar-default .navbar-toggle{
-
 	border-radius: #999;
 }
 
-.container.mainimage{
-	margin: 0px;
-	padding: 0px;
-}
-
-img  {max-width: 100%; max-height: 100%}
-
-#background{
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
-	opacity: 0.9;
-}
-
-.images{
-
-    height: 200px;
-   /* overflow: hidden;*/
-    margin: 0px;
-   
-
-}
-.container.boximage: {
-	 background-color: red;
-	 margin: 0;
-	 padding-left: 62.5px;
-	 padding-right: 62.5px;
-}
-
-
-
+/*Page footer style*/
 .end{
 	background: rgba(155, 209, 237, 0.64);
 	padding: 10px;
 	margin: 5px 0px;
 }
-
-.boxes{
-	margin: 8px 15px;
-}
-
-.col {
-	float: left;
-	width: 31%;
-	margin: .5%;
-	border-radius: 5px;
-	padding: 10px .5%;
-}
-
-.dropdown-menu{
-	background-color: rgba(155, 209, 237, 0.74);
-}
-
-
-.dropdown-menu>li:hover>a{
-	
-	background: #1CA6EB;
-}
-
-/*.navbar-default .container{
-	background: url("http://feelgrafix.com/data_images/out/17/916264-water-background.jpg") no-repeat right top;
-}*/
-
-.panel-default>.panel-heading {
-	/*background: rgba(155, 209, 237, 0.64);*/
-	background: red;
-}
-
-.boxes{
-	margin-top: 40px;
-}
-
-
-.mypanel{
-	height: 200px;	
-}
-
-.row{
-	margin-bottom: 40px;
-}
-
-.col1{
-	background: #DFE9EB;
-	width: 60%;
-	float: left;
-	margin: 1%;
-	height: 100%;
-}
-
-.col2 {
-	background: #DFE9EB;
-	width: 32%;
-	float: right;
-	margin: 1%;
-	height: 100%;
-
-	
-}
-.col3{
-	background: #DFE9EB;
-	width: 32%;
-	float: left;
-	margin: 1%;
-	height: 100%;
-
-}
-
-.col4{
-	background: #DFE9EB;
-	width: 60%;
-	float: right;
-	margin: 1%;
-	height: 100%;
-	
-}
-
-.mypanel .thehead{
-	height: 13%;
-	color: blue;
-	text-align: left;
-	background: linear-gradient(to right,#9BD1ED, #E4EFF5, white, white ) ;
-	text-shadow: 2px 0px 0.3 black ;
-
-
-	
-}
-
-.mypanel .thebody{
-	
-	
-
-}
-
-.mainbodylink {
-	
-	/*padding: 4px 118px 10px 118px; */
-	margin: 0px;
-	text-decoration: none;
-	text-transform: uppercase;
-	width: 236px;
-	height: 261px;
-	color: black;
-
-}
-
-
-
-.mypanel:hover a{
-
-	
-}
-
-.container.service{
-	/*background: #DDE9ED;*/
-	background: white;
-	padding: 10px 0 0 0;
-}
-
-.title:before, .title:after{
-	background: rgba(80,55,55,0.15);
-    content: "";
-    display: block;
-    height: 6px;
-    margin: 0 auto;
-    width: 80px;
-}
-.title{
-	display: block;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-  /*  margin-top: -40px;
-*/}
-
-.services li{
-
-	margin-top: 20px;
-    padding: 0;
-    text-align: center;
-    float: left;
-    width: 50%;
-    list-style-type: none;
-    display: inline; 
-    width: 25%;
-
-}
-
-#sec1{
-	height: 130px;
-	width: 130px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-
-}
-
-.container {
-	margin-bottom: 50px;
-}
-
-
-
-
-.map {
-	margin: 15px;
-	margin-left: 30px;
-	float: left;
-	}
-
-.kontakti {
-	float: left;
-	margin-left: 40px;
-
-	}
-
-
 
 
 

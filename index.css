@@ -1,0 +1,142 @@
+/*Sets image size according to the container size they are put and keeps the ratio*/
+img  {max-width: 100%; max-height: 100%}
+
+/*Sets the height of the banner image*/
+.images{
+    height: 200px;
+   /* overflow: hidden;*/
+    margin: 0px;  
+}
+
+/*Sets the height and position of the banner image*/
+#background{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.9;
+}
+
+/*This section sets the style and position for the "Service section"*/
+/*Sets the backgorund of the container*/
+.container.service{
+	/*background: #DDE9ED;*/
+	background: white;
+	padding: 10px 0 0 0;
+}
+
+/*Adds a line before and after the title*/
+.title:before, .title:after{
+	background: rgba(80,55,55,0.15);
+    content: "";
+    display: block;
+    height: 6px;
+    margin: 0 auto;
+    width: 80px;
+}
+
+/*Sets style and position to the title*/
+.title{
+	display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  /*  margin-top: -40px;
+*/}
+
+/*Sets style and postion to list of services*/
+.services li{
+	margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    float: left;
+    width: 50%;
+    list-style-type: none;
+    display: inline; 
+    width: 25%;
+}
+
+/*Creates circles for the images in the services list*/
+#sec1{
+	height: 130px;
+	width: 130px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*This section sets style to the information containers*/
+/*Class boxes sets the margin for the information container*/
+.boxes{
+	margin: 40px 15px;
+}
+
+/*Sets the height of each panel*/
+.mypanel{
+	height: 200px;	
+}
+
+/*Sets the margin after each row*/
+.row{
+	margin-bottom: 40px;
+}
+
+/*Sets the style of each column in the row*/
+.col1{
+	background: #DFE9EB;
+	width: 60%;
+	float: left;
+	margin: 1%;
+	height: 100%;
+}
+
+.col2 {
+	background: #DFE9EB;
+	width: 32%;
+	float: right;
+	margin: 1%;
+	height: 100%;	
+}
+
+/*Sets the style of the panel when hovered over*/
+.mypanel:hover a{	
+}
+
+/*Sets the style of the head of the panel*/
+.mypanel .thehead{
+	height: 13%;
+	color: blue;
+	text-align: left;
+	background: linear-gradient(to right,#9BD1ED, #E4EFF5, white, white ) ;
+	text-shadow: 2px 0px 0.3 black ;	
+}
+
+/*Sets the style of the link to the infomation pages*/
+.mainbodylink {
+	/*padding: 4px 118px 10px 118px; */
+	margin: 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 236px;
+	height: 261px;
+	color: black;
+}
+
+/*Sets the style of the body of the panel*/
+.mypanel .thebody{
+	
+}
+
+
+
+
+
+
+
+
+
