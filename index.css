@@ -78,7 +78,7 @@ img  {max-width: 100%; max-height: 100%}
 
 /*Sets the height of each panel*/
 .mypanel{
-	height: 200px;	
+	height: 300px;	
 }
 
 /*Sets the margin after each row*/
@@ -109,7 +109,7 @@ img  {max-width: 100%; max-height: 100%}
 
 /*Sets the style of the head of the panel*/
 .mypanel .thehead{
-	height: 13%;
+	height: 10%;
 	color: blue;
 	text-align: left;
 	background: linear-gradient(to right,#9BD1ED, #E4EFF5, white, white ) ;
@@ -127,15 +127,75 @@ img  {max-width: 100%; max-height: 100%}
 	color: black;
 }
 
+
+
 /*Sets the style of the body of the panel*/
-.mypanel .thebody{
+.mypanel .thebody ul{
+	padding: 0px;
+}
+
+.mypanel.panel1 .thebody.navigation ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*The navigtion part of the new panel*/
+.mypanel.panel1 .thebody.navigation ul li {
+	float: left;
+	width: 25%;
+	height: 35px;
+	border-left: 8px solid white;
+	border-bottom: 8px solid white;
+	border-top: 2px solid white;
+	padding: 0px 10px;
+	text-decoration: none;
+	text-align: center;
+	
+}
+.mypanel.panel1 .thebody.navigation ul li:first-child {
+	border-left: none;
+}
+
+.mypanel.panel1 .thebody.navigation ul li a {
+	display: block;
+	margin-top: 0;
+	text-decoration: none;
+	font-size: 16px;
+	color: #50595C;
+}
+
+.mypanel.panel1 .thebody.navigation ul li.active, .mypanel.panel1 .thebody.navigation ul li:hover{
+	border-bottom: 0px;
+	font-weight: bold;
 	
 }
 
+.mypanel.panel1 .thebody.navigation ul li.active a, .mypanel.panel1 .thebody.navigation ul li:hover a{
+	color: #2AA7D1;
+}
 
+.articles .article .content {
+	float: right;
+	width: 50%;
+}
 
+.articles .article figure {
+	float: left;
+	width: 40%;
+	margin: 0;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 20px;
+    -webkit-margin-end: 20px;
 
+}
 
+.articles .article figure  img{
+	height: auto;
+	max-width: 100%;
+}
 
 
 
