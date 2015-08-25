@@ -197,6 +197,16 @@ img  {max-width: 100%; max-height: 100%}
 	max-width: 100%;
 }
 
+.col2 .thebody .content{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.col2 .thebody .content h4{
+	font-size: 16px;
+}
+
 
 
 @media only screen and (max-width: 767px){
@@ -215,7 +225,16 @@ img  {max-width: 100%; max-height: 100%}
 	    font-size: 12px;
 	}	
 
-	
+	.col1{
+		width: 100%;
+		float: left;
+	}
+
+	.col2 {
+		width: 100%;	
+		float: left;
+	}
+
 
 }
 
@@ -235,6 +254,20 @@ img  {max-width: 100%; max-height: 100%}
 	.services li{ 
 	    width: 40%;
 	    font-size: 12px;
+	}
+
+	.col1{
+		width: 100%;
+		float: left;
+	}
+
+	.col2 {
+		width: 100%;
+		float: left;	
+	}
+
+	.mypanel.panel1 .thebody.navigation ul li a {
+		font-size: 14px;
 	}
 
 }

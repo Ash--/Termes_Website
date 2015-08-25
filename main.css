@@ -27,6 +27,7 @@ img  {max-width: 100%; max-height: 100%}
 .navbar-default {
 	background-image: none;
 	box-shadow: none;
+	width: 100%;
 }
 
 /*Changes size and styles of the navigation bar as a whole*/
@@ -41,6 +42,7 @@ img  {max-width: 100%; max-height: 100%}
 /*Adds borders between idividual sections in the navigation bar*/
 .navbar-default .nav.navbar-nav .dropdown {
 	border-left: 1px ridge #E4ECF2;
+	font-size: 12px;
 	
 }
 
@@ -50,11 +52,18 @@ img  {max-width: 100%; max-height: 100%}
 	padding-right: 0px;
 }	
 
+/*.collapse.navbar-collapse ul li.dropdown{
+	width: 12%;
+}*/
+/*.collapse.navbar-collapse ul li .glyphicon.glyphicon-home {
+	width: 45px;
+}*/
+
 /*Style of the current selected option in the navigation bar*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	color: white;
 	background: rgba(155, 209, 237, 0.64);
-	font-size: 16px;
+	font-size: 14px;
 	font-family: arial;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -65,7 +74,7 @@ img  {max-width: 100%; max-height: 100%}
 
 
 /*Creates circles for the language navigation and sets the style*/
-#circle{ padding: 0; margin: 10px 0 0 0;}
+#circle{ padding: 0; margin: 15px 0 0 0;}
 #circle li{float: left; margin-left: 10px;}
 #circle ul{margin-left: 15px; list-style-type: none;}
 #circle li a{
@@ -118,7 +127,7 @@ img  {max-width: 100%; max-height: 100%}
 /*Sets style for the dropdown menus in the navigation bar*/
 .navbar-default .navbar-nav>.dropdown>a {
 	color: #4EA9E6;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: arial;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -162,6 +171,41 @@ img  {max-width: 100%; max-height: 100%}
 	background: rgba(155, 209, 237, 0.64);
 	padding: 10px;
 	margin: 5px 0px;
+}
+
+@media only screen and (max-width: 1024px){
+	#circle{ margin: 15px 0 0 0;}
+	#circle li{float: left;margin-left: 5px}
+	#circle ul{margin-left: 0px;}
+	#circle li a{
+		font-size: 11px;
+		height: 25px;
+		width: 25px;
+		line-height: 25px;
+	}
+	.navbar-default .navbar-nav>.dropdown>a {
+		font-size: 12px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		padding-right: 10px;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+		font-size: 12px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		padding-right: 10px;
+	}
+
+	.glyphicon{
+	font-size: 14px;
+	padding-right: 5px;
+
+}
+
+
+	#logo{
+		margin-right: 5px;
+	}
 }
 
 @media only screen and (max-width: 767px){
