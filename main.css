@@ -7,6 +7,7 @@ img  {max-width: 100%; max-height: 100%}
 	padding: 0;
 	margin-right: 0;
 	margin-left: 0;
+	text-align: center;
 }
 
 
@@ -36,7 +37,9 @@ img  {max-width: 100%; max-height: 100%}
 .navbar-default {
 	background-image: none;
 	box-shadow: none;
-	width: 100%;
+	width: 98%;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 /*Changes size and styles of the navigation bar as a whole*/
