@@ -3,6 +3,9 @@
 	margin-bottom: 50px;
 	max-width: 1920px;
 	width: 100%;
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 /*Sets the size and the position of the map*/
