@@ -1,0 +1,107 @@
+.container.wm_ver{
+    width: 20%;
+    float: left;
+}
+
+.water_meters{
+  padding:  0;
+  margin-top: 70%;
+}
+
+.water_meters li{
+	margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    display: inline; 
+    width: 70%;    
+}
+
+
+.water_meters li h4{
+    font-size: 20px;
+}
+
+
+.water_meters li a{
+     text-decoration: none;
+}
+
+/*Creates circles for the images in the services list*/
+#sec1{
+	height: 60%;
+	width: 60%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.container.home_wm{
+/*    background-color: blue;*/
+    width: 20%;
+    float:left;
+}
+
+#sec1_home{
+    height: 90%;
+    width: 90%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+
+
+.water_meters_home{
+  padding:  0;
+/*  margin-top: 50%;*/
+}
+
+.water_meters_home li{
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    display: inline; 
+    width: 100%;    
+}
+
+.container.wm_info{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

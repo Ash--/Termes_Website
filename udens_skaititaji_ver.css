@@ -39,23 +39,51 @@
     float: left;
     list-style-type: none;
     display: inline; 
-    width: 33%;
+    width: 33%; 
+    
 }
 
 
 .water_meters li h4{
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.water_meters li:hover h4{
+    font-size: 28px;
+}
+
+.water_meters li a{
+     text-decoration: none;
 }
 
 /*Creates circles for the images in the services list*/
 #sec1{
-	height: 80%;
-	width: 70%;
+	height: 60%;
+	width: 60%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
     display: block;
     margin: 0 auto;
+    font-size: 24px;
 }
+
+
+.water_meters li:hover #sec1{
+    height: 63%;
+    width: 63%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
