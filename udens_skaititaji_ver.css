@@ -1,0 +1,61 @@
+/*Sets style and postion to list of services*/
+.container.wm_ver{
+    background: #DDE9ED;
+    padding: 10px 0 0 0;
+    width: 90%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 10%;
+}
+.title{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  /*  margin-top: -40px;
+*/}
+
+.title:before, .title:after{
+    background: rgba(80,55,55,0.15);
+    content: "";
+    display: block;
+    height: 6px;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.water_meters{
+  padding:  0;
+}
+
+.water_meters li{
+	margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    display: inline; 
+    width: 33%;
+}
+
+
+.water_meters li h4{
+    font-size: 20px;
+}
+
+/*Creates circles for the images in the services list*/
+#sec1{
+	height: 80%;
+	width: 70%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
