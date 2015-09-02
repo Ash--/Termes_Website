@@ -75,6 +75,13 @@ img  {max-width: 100%; max-height: 100%}
 
 /*This section sets style to the information containers*/
 /*Class boxes sets the margin for the information container*/
+
+.container.information{
+	width: 92%;
+	margin-right: 4%;
+	margin-left: 4%;
+}
+
 .boxes{
 	margin: 40px 15px;
 }
