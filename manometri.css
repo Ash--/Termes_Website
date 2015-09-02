@@ -94,6 +94,7 @@
 
 .mano.cal{
 	border-left: 1px solid black;
+	text-align:left; 
 }
 
 .side{
@@ -133,6 +134,10 @@
 	float: left;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
+}
+
+.list ul li {
+	text-align: left;
 }
 
 .break{
