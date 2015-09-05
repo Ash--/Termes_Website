@@ -1,0 +1,18 @@
+.container{
+	max-width: 1920px;
+	width: 100%;
+
+}
+
+.container.history{
+	width: 80%;
+	margin: 5% 10%;
+}
+
+.container.history h1{
+	margin-bottom: 50px;
+}
+
+.container.history h3{
+	color: #4EA9E6;
+}

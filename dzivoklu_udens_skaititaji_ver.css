@@ -1,3 +1,9 @@
+.container.main{
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 2%;
+}
+
 .container.wm_ver{
     width: 20%;
     float: left;
@@ -42,19 +48,25 @@
 
 .container.home_wm{
 /*    background-color: blue;*/
-    width: 20%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    width: 75%;
     float:left;
+    background: #DDE9ED;
+    padding: 0.5%;
 }
 
 #sec1_home{
-    height: 90%;
-    width: 90%;
+    height: 60%;
+    width: 60%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
     font-size: 24px;
+    float: left;
 }
 
 
@@ -71,12 +83,14 @@
     float: left;
     list-style-type: none;
     display: inline; 
-    width: 100%;    
+    width: 30%;    
 }
 
 .container.wm_info{
     width: 60%;
+    float: left;
 }
+
 
 
 

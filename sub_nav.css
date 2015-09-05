@@ -5,6 +5,7 @@
 
 .container.sub-nav{
 	padding: 0px;
+	background-color: rgba(155, 209, 237, 0.74);
 }
 
 .sub-navigation{
@@ -21,7 +22,7 @@
 	float: left;
 	padding: 10px;
 	list-style-type: none;
-	background-color: rgba(155, 209, 237, 0.74);
+	/*background-color: rgba(155, 209, 237, 0.74);*/
 	width: 12.5%;
 	text-align: center;
 	

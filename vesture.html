@@ -10,7 +10,8 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
-		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="vesture.css">
+		<link rel="stylesheet" type="text/css" href="sub_nav.css">
 		<!-- Character set to use other languages -->
 		<meta charset= "UTF-8">
 		<meta name="viewport" content="width=device-width" content="initial-scale=1">
@@ -43,8 +44,8 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav" id="change_text_colour">
 			      	<li id = "logo"><img src="images/termes_logo.png"></li>
-			      	<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>			       
-			        <li class="dropdown">
+			      	<li class="dropdown"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>			       
+			        <li  class="active">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Par kompāniju <span class="caret"></span></a>
 			          
 			          <ul class="dropdown-menu">
@@ -122,161 +123,102 @@
 		</div>
 		</header>
 
-		<!-- Adds an image after navigation bar -->
+		<div class="container sub-nav">
+			<nav class="sub-navigation">
+				<ul class="nav-control">
+					<li class="active"><a href="vesture.html">Vēsture</a></li>
+					<li><a href="#">Aktuāli</a></li>
+					<li><a href="#">Rekvizīti</a></li>
+					
+				</ul>
+			</nav>
+		</div>
+
+		<div class="container banner">
+				<img src="images/termes_history.jpg">
+		</div>
+
 		<div class="container">
-			<div class="images">
-				<img align="middle" id="background" src="images/back.jpg">
-			</div>	
-		</div>
 
-	
-		<!-- Adds a section with service iformation -->
-		<div class="container service">
-			<!-- <span class="title">
-				Pakalpojumi
-			</span> -->
-			<ul class="services">
-				<li id="service1">
-					<a href="#">
-						<img id="sec1" src="images/DUS.jpg" alt=""/>
-						<h4>DUS</h4>
-					</a>
-				</li>
-				<li id="service1">
-					<a href="#">
-						<img id="sec1" src="images/heat_meter2.jpg" alt=""/>
-						<h4>Siltumskaitītāji</h4>
-					</a>
-				</li>
-				<li id="service1">
-					<a href="#">
-						<img id="sec1" src="images/weights.jpg" alt=""/>
-						<h4> Svari</h4>
-					</a>
-				</li>
-				<li id="service1">
-					<a href="#">
-						<img id="sec1" src="images/water_meter2.jpg" alt=""/>
-						<h4>Ūdens skaitītāji</h4>
-					</a>
-				</li>
-				<li id="service1">
-					<a href="#">
-						<img id="sec1" src="images/termometrs.jpg" alt=""/>
-						<h4>Termometri</h4>
-					</a>
-				</li>
-				<li id="service1">
-					<a href="#">
-						<img id="sec1" src="images/termostats.jpg" alt=""/>
-						<h4>Termostati</h4>
-					</a>
-				</li>
-				<li id="service1">
-					<a href="#">
-						<img id="sec1" src="images/tilpne.jpg" alt=""/>
-						<h4>Rezervuāri</h4>
-					</a>
-				</li>
-				<li id="service1">
-					<a href="manometri.html">
-						<img id="sec1" src="images/manometrs.jpg" alt=""/>
-						<h4>Manometri</h4>
-					</a>
-				</li>
-			</ul>
-		</div>
-	
-	<!--Adds information section  -->
-	<div class="container information">
-			<div class="boxes">
-				<div class="row">
-					<div class="col1">
-						<div class="mypanel panel1">
-							<!-- Adds "News" section -->
-							<div class="thehead"><a class ="mainbodylink" href="#">Jaunumi</a></div>
-								<div class="thebody navigation">
-									<nav>
-										<ul class="size">
-											<li data-uid="0001" class="active">
-												<a href="#" >
-													<time datetime = "2015-08-07">	
-														7 Aug 
-														<span class="year">2015</span>
-													</time>	
-												</a>
-											</li>
-											<li data-uid="0002" >
-												<a href="#">
-													<time datetime = "2015-08-08">
-														8 Aug 
-														<span class="year">2015</span>
-													</time>	
-												</a>
-											</li>
-											<li data-uid="0003" >
-												<a href="#">
-													<time datetime = "2015-08-09">
-														9 Aug 
-														<span class="year">2015</span>
-													</time>	
-												</a>	
-											</li>
-											<li data-uid="0004" >
-												<a href="#">
-													<time datetime = "2015-08-10">
-														10 Aug 
-														<span class="year">2015</span>
-													</time>	
-												</a>	
-											</li>
-										</ul>
-									</nav>
-									<div class="articles new-list-view">
-										<article class="article articletype-0 active" data-uid="0001"  style="display:block;">
-											<figure>
-												<a href="#">
-													<img src="images/laboratorija.jpg" width="280" height"164">
-												</a>
-											</figure>
-											<div class="content">
-												<h3>Termes laboratorijas jaunumi</h3>
-												<p class="abstract"></p>
-												<p></p>
-												<p>
-													Termes laboratorija atver jaunu sfēru!
-												</p>
-											</div>
-										</article>
-									</div>
-								</div>
-						</div>	
-					</div>
-					<!-- Calendar section -->
-					<div class="col2">
-						<div class="mypanel panel2">
-							<!-- Adds "Calendar" section -->
-							<div class="thehead"><a class ="mainbodylink" href="kontakti.html">Kontakti</a></div>
-								<div class="thebody">
-									<div class="content">
-										<p></p>
-										<h4>Kalibrēšanas laboratorija "TERMES"</h4>
-										<p>Adrese: S.Eizenšteina 43a, Rīga, Latvija</p>	
-										<p>Pasta indekss: LV-1079</p>	
-										<p>Tālr.: +371 67817419</p>	
-										<p>Fakss: +371 67817420</p>	
-										<p>E-Mail: termes@mits.lv </p>	
-										
-									</div>
-								</div>
-						</div>	
-					</div>
-				</div>
+			<div class="container history">
+				<h1>Mūsu vēsture</h1>
+				<p></p>
+				<P></P>
+				<p></p>
+				<p></p>
+				<h3>1999</h3>
+				<p></p>
+				<p></p>
+				<p>
+				 	SIA TERMES dibināšana. Pamatdarbības veids – dzīvokļu ūdens skaitītāju verificēšana.
+				 	Iepirkts ūdens skaitītāju pārbaudes stends <b>“ELKORA UPS-15 ”</b>.
+				</p>
+				<p></p>
+				<P></P>
+				<h3>2000</h3>
+				<p></p>
+				<p></p>
+				<p>
+					Laboratorijas sagatavošana akreditācijai pēc standarta <b>LVS EN ISO/IEC 17025</b> .
+				</p>
+				<p></p>
+				<P></P>
+				<h3>2002</h3>
+				<p></p>
+				<p></p>
+				<p>
+					Laboratorijas akreditācija pēc standarta <b>LVS EN ISO/IEC 17025</b> . Akreditācijas sfēra – mehānisko ūdens skaitītāju kalibrēšana.
+				</p>
+				<p></p>
+				<P></P>
+				<h3>2003</h3>
+				<p></p>
+				<p></p>
+				<p>
+					Ministru Kabinets pilnvaroja SIA TERMES patstāvīgi veikt mehānisko ūdens skaitītāju verificēšanu (MK Rīkojums Nr.186 no 2003.g.26.martā).
+					Iepirkts, uzstādīts un ieviests ekspluatācijā ūdens skaitītāju pārbaudes stends <b>“EP-15 ”</b>.
+					Kalibrēšanas laboratorija pārvietojās jaunajās telpās pēc adreses: S.Eizenšteina 43a, Rīga.
+				</p>
+				<p></p>
+				<P></P>
+				<h3>2004</h3>
+				<p></p>
+				<p></p>
+				<p>					
+					Laboratorijas akreditācijas sfēras paplašināšana visu veidu ūdens skaitītāju, plūsmas mērītāju, siltumenerģijas skaitītāju, pretestības termometru, manometru, neautomātisko svaru, degvielas un sašķidrinātas gāzes uzpildes staciju kalibrēšanai un termostatu testēšanai.
+				</p>
+				<p>
+					Ar Ekonomikas ministrijas dienesta informāciju Nr.6.21-02/74 “Par atbilstības novērtēšanas institūcijām” no 2004.g.13.10. SIA TERMES kalibrēšanas laboratorijai ir atļauts veikt ūdens patēriņa, siltumenerģijas skaitītāju, plūsmas mērītāju, pretestības termometru, manometru, neautomātisko svaru un degvielas uzpildes aparātu verificēšanu.
+				</p>
+				<p></p>
+				<P></P>
+				<h3>2005</h3>
+				<p></p>
+				<p></p>
+				<p>
+					ES struktūrfondu līdzfinansējuma saņemšana laboratorijas infrastruktūras modernizācijai un vispārējas laboratorijas attīstībai.
+					Laboratorijas akreditācijas sfēras paplašināšana bimetālisko, elektronisko, manometrisko un stikla termometru kalibrēšanai.
+					Laboratorijas sagatavošana akreditācijai pēc standarta <b>LVS EN ISO/IEC 17020</b> .
+				</p>
+				<p></p>
+				<P></P>
+				<h3>2006</h3>
+				<p></p>
+				<p></p>
+				<p>
+					Laboratorijas akreditācija pēc standarta <b>LVS EN ISO/IEC 17020</b>. Akreditācijas sfēra – aukstā un kārstā ūdens patēriņa skaitītāju, siltumenerģijas skaitītāju pirmreizējā verificēšana; aukstā un kārstā ūdens patēriņa skaitītāju, siltumenerģijas skaitītāju, manometru, neautomātisko svaru, degvielas uzpildes aparātu degvielas uzpildes stacijās (izņemot LPG), sašķidrinātās gāzes (LPG) uzpildes aparātu degvielas uzpildes stacijās atkārtotā verificēšana.
+				</p>
+
+
 			</div>
-	</div>
+		
 
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+		</div>
+
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	    <script src="js/bootstrap.min.js"></script>
